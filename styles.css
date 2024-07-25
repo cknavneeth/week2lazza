@@ -1,0 +1,67 @@
+main{
+  overflow: hidden;
+}
+.lazzalogo{
+    width: 7rem;
+    height: 5rem;
+    cursor:pointer;
+    background-size: cover;
+    background-position: center;
+}
+.searchbar{
+    width: 1.5rem;
+    height: 1.5rem;
+    gap:0.7rem;
+
+}
+@media (max-width: 768px) {
+    .navbar-toggler {
+        order: 3;
+    }
+    
+     .collapse.navbar-toggler {
+        flex-basis: auto;
+        flex-grow: 1;
+        align-items: flex-end;
+      }
+   
+    .icons {
+        order: 2;
+        justify-content: center;
+    }
+    .collapse.navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 100%;
+      padding: 1rem;
+      /* background-color: #f9f9f9; */
+      background-color: black;
+      border-top: 1px solid #ddd;
+      text-align: center;
+    }
+
+  }
+  .text-center{
+    font-size: 2.875rem;
+  }
+  /* @media(maxwidth:768px) */
+  /* #blogs{
+    padding-left: 2.5rem;
+  } */
+  #ul-footer{
+    text-decoration: none;
+    list-style: none;
+  }
+  
+
+
+
+
+
+
